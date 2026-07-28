@@ -1,9 +1,68 @@
-Marketing 
+# NOTICE
 
-Copyright (c) bigdev
+Project: Marketing
 
-This project is licensed under the MIT License.
-See the LICENSE file for details.
+Copyright (c) 2026 Marketing Contributors
 
-Third-party software and libraries retain their respective copyrights
-and licenses.
+---
+
+## License Information
+
+Marketing is licensed under the MIT License.
+
+The full license text can be found in the `LICENSE` file included in this repository.
+
+---
+
+## Third-Party Components
+
+This project may use third-party libraries, frameworks, tools, and services.
+
+Each third-party component remains the property of its respective copyright holders and is distributed under its own license terms.
+
+Users and contributors are responsible for respecting the licenses of third-party dependencies.
+
+---
+
+## Trademark Notice
+
+"Marketing" and related project branding are intended to identify this open-source project.
+
+Use of project names, logos, or branding should not imply official endorsement, partnership, or affiliation unless explicitly stated.
+
+---
+
+## Contribution Notice
+
+Contributors retain ownership of their original contributions unless otherwise agreed.
+
+By submitting contributions, contributors agree that their work may be distributed under the project's applicable license.
+
+---
+
+## Security Notice
+
+Security researchers and contributors who responsibly report vulnerabilities help improve the safety and reliability of Marketing.
+
+Please follow the security reporting process described in:
+
+`SECURITY.md`
+
+---
+
+## Acknowledgements
+
+We thank:
+
+* Open-source developers
+* Community contributors
+* Documentation writers
+* Testers
+* Security researchers
+* Everyone who supports the project
+
+for helping improve Marketing.
+
+---
+
+This NOTICE file is maintained as part of the Marketing open-source project.
