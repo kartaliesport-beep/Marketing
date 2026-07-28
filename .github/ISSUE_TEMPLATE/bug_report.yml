@@ -1,1 +1,88 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in Marketing
+title: "[Bug]: "
+labels:
 
+* bug
+  body:
+
+* type: markdown
+  attributes:
+  value: |
+  Thank you for taking the time to report a bug.
+
+  ```
+  Please provide as much detail as possible so we can investigate and resolve the issue faster.
+  ```
+
+* type: input
+  id: summary
+  attributes:
+  label: Bug Summary
+  description: Briefly describe the problem.
+  placeholder: "Example: Campaign dashboard does not load"
+  validations:
+  required: true
+
+* type: textarea
+  id: description
+  attributes:
+  label: Description
+  description: Explain what happened and what you expected to happen.
+  placeholder: |
+  What happened?
+
+  ```
+  What should have happened?
+  ```
+
+  validations:
+  required: true
+
+* type: textarea
+  id: reproduce
+  attributes:
+  label: Steps to Reproduce
+  description: Provide clear steps to reproduce the issue.
+  placeholder: |
+  1. Open the dashboard
+  2. Create a campaign
+  3. Click save
+  4. Error appears
+  validations:
+  required: true
+
+* type: input
+  id: version
+  attributes:
+  label: Marketing Version
+  description: Which version are you using?
+  placeholder: "Example: v0.1.0"
+
+* type: dropdown
+  id: environment
+  attributes:
+  label: Environment
+  description: Where did the issue happen?
+  options:
+  - Production
+  - Development
+  - Local Installation
+  - Docker
+  - Other
+  validations:
+  required: true
+
+* type: textarea
+  id: logs
+  attributes:
+  label: Logs or Error Messages
+  description: Add relevant logs, screenshots, or error messages.
+  render: shell
+
+* type: textarea
+  id: additional
+  attributes:
+  label: Additional Information
+  description: Add anything else that may help us investigate.
+  
